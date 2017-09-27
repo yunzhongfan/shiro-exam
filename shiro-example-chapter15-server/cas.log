@@ -979,3 +979,5 @@ SERVER IP ADDRESS: 127.0.0.1
 2014-02-13 21:46:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
 2014-02-13 21:48:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
 2014-02-13 21:48:19,312 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2017-09-19 23:33:40,308 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2017-09-19 23:33:43,848 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
