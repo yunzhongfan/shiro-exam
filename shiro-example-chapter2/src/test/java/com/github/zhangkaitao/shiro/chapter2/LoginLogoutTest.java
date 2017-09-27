@@ -39,6 +39,7 @@ public class LoginLogoutTest {
             subject.login(token);
         } catch (AuthenticationException e) {
             //5、身份验证失败
+        	e.printStackTrace();
         }
 
         Assert.assertEquals(true, subject.isAuthenticated()); //断言用户已经登录
@@ -139,5 +140,7 @@ public class LoginLogoutTest {
     public void tearDown() throws Exception {
         ThreadContext.unbindSubject();//退出时请解除绑定Subject到线程 否则对下次测试造成影响
     }
+    
+    
 
 }
