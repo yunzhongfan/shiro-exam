@@ -7,6 +7,10 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+
+/**
+ * 不借用Authorizer的授权查询
+ */
 /**
  * <p>User: Zhang Kaitao
  * <p>Date: 14-1-26
